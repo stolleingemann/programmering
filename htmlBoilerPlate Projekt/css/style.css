@@ -1,0 +1,94 @@
+/**
+ * fil: css/style.css
+ **/
+/* Variabler: genbruges og gør designvalg enkle */
+:root {
+  /* farver */
+
+  --white: #ffffff;
+  --graa: #2b2b2b;
+  --hvid: #ECEBE4;
+  --groen: #263526;
+}
+
+
+  /* fonte */
+
+  /* Raleway
+font-family: 'Raleway', sans-serif;
+*/
+
+/* font-family: 'Raleway', sans-serif; */
+
+
+/* Her bruges en variabel: --blue */
+
+/* Layout */
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: var(--graa);
+  }
+
+  .nav {
+    background-color: var(--graa);
+    color: var(--white);
+    padding: 20px 0 20px 0;
+    list-style: none;
+    text-align: right;
+  }
+
+  .nav > li {
+      display: inline-block;
+      padding: 0 25px 0 25px;
+      font-size: 24px;
+  }
+
+  .nav > li > a {
+    text-decoration: none;
+    color: var(--hvid);
+}
+
+  .nav > li > a:hover {
+    color: #c1c1c1;
+  }
+
+  .banner {
+      width: 100%;
+      display: block;
+  }
+  .banner > .banner-image{
+      display: block;
+      width: 100%;
+
+
+
+
+  }
+
+
+/* Typografi */
+h1{
+  text-align: center;
+  color: var(--hvid);
+  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+
+h2 {
+  color: var(--hvid);
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--hvid);
+}
+
+footer{
+  color: var(--hvid);
+  text-align: center;
+  padding-bottom: 30px;
+}
